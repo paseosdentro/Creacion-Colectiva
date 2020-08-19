@@ -3,25 +3,21 @@ html
 /* DISEÑO FUENTES & COLOR */
 {
 font-size: 20px;
-font-family: 'Codystar', cursive; /* puntitos*/
-font-family: 'Lexend Tera', sans-serif;
-font-family: 'Libre Barcode 39', cursive;
-font-family: 'Major Mono Display', monospace;
-font-family: 'Zilla Slab Highlight', cursive;
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Press Start 2P', cursive;
+font-family: 'Baloo Tamma 2', cursive; /* regular*/
+font-family: 'Londrina Outline', cursive;  /*gordita*/
 }
 
 h1 {
-  font-family: 'Codystar', cursive;
+  font-family: 'Londrina Outline', cursive;
 Font-size: 30px;
 Padding: 20px;
 }
 
 h2 {
-  font-family: 'Codystar', cursive; 
-Font-size: 30px;
+  font-family: 'Baloo Tamma 2', cursive;  /*regular con negrita*/
+Font-size: 25px;
 Padding: 10px;
+font-weight: 500;
 }
 
 h3 {
@@ -30,10 +26,10 @@ Font-size: 30px;
 Padding: 20px;
 }
 
-  body { background-color: white; color:#FF5027 }
+  body { background-color: white; color:#4C4C4C }
 
 p {
-  font-family: 'Major Mono Display', sans-serif;
+  font-family: 'Baloo Tamma 2', sans-serif; /*regular sin negrita*/
   Padding: 15px;
 }
 
