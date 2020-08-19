@@ -21,9 +21,10 @@ font-weight: 500;
 }
 
 h3 {
-  font-family: 'Major Mono Display', sans-serif;
-Font-size: 30px;
+  font-family: 'Baloo Tamma 2', cursive; /*regular*/
+Font-size: 25px;
 Padding: 20px;
+font-weight: 50;
 }
 
   body { background-color: white; color:#4C4C4C }

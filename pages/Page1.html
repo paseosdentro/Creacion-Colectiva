@@ -10,7 +10,7 @@
 <title> CREA TU PROPIO JUEGO  </title>
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="../style.css"/>
 
 <!-- JQUERY -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -51,15 +51,48 @@
   <input type="text" id="creator" name="creator">
 </form>
 
-<p> Tipo de Juego </p>
+<table> 
+<tr align= "left">
+	<td width="30%" align="left">
+<h2> Tipo de Juego </h2>
 <form>
-  <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label>
+  <h3><font size="4"</font><input type="radio" id="narrativo" name="tipo" value="narrativo">
+  <label for="narrativo">Narrativo</label><br>
+  <input type="radio" id="creación visual" name="tipo" value="creación visual">
+  <label for="creación visual">Creación visual</label><br>
+  <input type="radio" id="relación de formas" name="tipo" value="relación de formas">
+  <label for="relación de formas">Relación de formas</label></h3>
 </form>
+	</td>
+	
+	<td width="45%" align="left">
+<h2> Interacción entre lxs participantes </h2>
+<form>
+  <h3><font size="4"</font><input type="radio" id="cooperación" name="interacción" value="cooperación">
+  <label for="cooperación">Cooperación colectiva</label><br>
+  <input type="radio" id="competición" name="interacción" value="competición">
+  <label for="competición">Competición en grupos</label><br>
+  <input type="radio" id="unx contra el resto" name="interacción" value="unx contra el resto">
+  <label for="unx contra el resto">Unx contra el resto</label></h3>
+</form>
+	</td>
+	
+		<td width="30%" align="left">
+<h2> Acciones principales </h2>
+<form>
+   <h3><font size="4"</font><input type="radio" id="adivinar" name="acciones" value="adivinar">
+ <label for="adivinar">Adivinar</label><br>
+  <input type="radio" id="escribir" name="acciones" value="escribir">
+  <label for="escribir">Escribir</label><br>
+  <input type="radio" id="dibujar" name="acciones" value="dibujar">
+  <label for="dibujar">Dibujar</label></h3>
+</form>
+	</td>
+</tr>
+</table>
+
+<p> Desarrolla con tu equipo las siguientes características del juego: </p>
+
 
 										   
 
